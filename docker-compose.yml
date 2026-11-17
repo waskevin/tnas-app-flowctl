@@ -1,0 +1,6 @@
+services:
+  flowctl:
+    image: korayakyuz/flowctl:0.8.0
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
